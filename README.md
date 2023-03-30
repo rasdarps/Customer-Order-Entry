@@ -3,6 +3,11 @@
 This project is a mini project on Customer Order Entry. It is useful for anyone who want to learn database from a beginner level with a mini project.
 It simulates a business customer order entry where customer orders are entered in a database to track supply.
 
+#PROBLEM STATEMENT
+
+A company wishes to create a database for its order entry activities. A customer can place one or more orders, with each order for one or more products. Each order gives rise to one invoice, which can be paid by a number of methods, such as check, credit card, or cash. The name of the employee who initially processes the customer order is recorded. An employee in the Shipping Department is responsible for packaging the order and sending it to the
+customer. If an ordered product is not in stock, Shipping send out what is in stock, so more than one shipment may be required to fulfil the order.
+
 **#DATABASE**
 
 A database is a collection of data that is organized and stored in a computer system, typically managed by a database management system (DBMS). A database allows users to store, retrieve, update, and delete data in a structured and efficient way. 
