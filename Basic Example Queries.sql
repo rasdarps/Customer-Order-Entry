@@ -24,3 +24,13 @@ SELECT orders.orderDate,orderdetail.orderNo,productName,orderdetail.quantityOrde
 FROM orderdetail 
 INNER JOIN orders ON orderdetail.orderNo=orders.orderNo
 INNER JOIN product ON orderdetail.productNo = product.productNo;
+
+/*6. Aggregate function to select minimum order*/
+SELECT orderdetail.orderNo, product.productName, MIN(orderdetail.quantityOrdered * product.unitPrice) AS Min_Order_Total
+FROM orderdetail
+INNER JOIN product ON orderdetail.productNo = product.productNo;
+
+/*7. Select from product table quantity of all products */
+SELECt SUM(quantityOnHand) AS Total_Product_Quantity
+FROM product;
+
