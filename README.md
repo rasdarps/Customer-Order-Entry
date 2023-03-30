@@ -8,6 +8,16 @@ It simulates a business customer order entry where customer orders are entered i
 A company wishes to create a database for its order entry activities. A customer can place one or more orders, with each order for one or more products. Each order gives rise to one invoice, which can be paid by a number of methods, such as check, credit card, or cash. The name of the employee who initially processes the customer order is recorded. An employee in the Shipping Department is responsible for packaging the order and sending it to the
 customer. If an ordered product is not in stock, Shipping send out what is in stock, so more than one shipment may be required to fulfil the order.
 
+#ER DIAGRAM
+An ER (Entity-Relationship) diagram is a graphical representation of entities and their relationships to each other in a database. It is a visual tool used to design and communicate the database schema. ER diagrams use symbols and connectors to represent entities, attributes, relationships, and cardinality.
+
+#Model Flow Chart
+A flowchart is a type of diagram that represents the steps or processes involved in a system or workflow. It is a visual tool that shows the sequence of steps, decision points, and branching paths in a process.
+
+#Access Flow Chart
+An Access flowchart is a type of diagram used to represent the logical flow of data within a database. It typically show the operation one has with access to the system
+
+
 **#DATABASE**
 
 A database is a collection of data that is organized and stored in a computer system, typically managed by a database management system (DBMS). A database allows users to store, retrieve, update, and delete data in a structured and efficient way. 
